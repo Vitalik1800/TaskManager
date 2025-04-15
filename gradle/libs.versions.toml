@@ -1,0 +1,58 @@
+[versions]
+agp = "8.7.3"
+googleApiClientJackson2 = "1.20.0"
+googleApiClientJackson2Version = "1.33.0"
+googleApiServicesCalendar = "v3-rev305-1.25.0"
+googleApiServicesCalendarVersion = "v3-rev411-1.25.0"
+googleAuthLibraryOauth2Http = "0.26.0"
+googleAuthLibraryOauth2HttpVersion = "0.25.2"
+googleGoogleApiClientAndroid = "1.31.2"
+googleGoogleApiClientAndroidVersion = "2.7.2"
+googleGoogleApiClientJackson2 = "2.7.2"
+googleGoogleAuthLibraryOauth2Http = "1.33.1"
+googleHttpClientGson = "1.39.2"
+googleHttpClientGsonVersion = "1.46.3"
+googlePlayServicesAuth = "20.1.0"
+jacksonDatabindVersion = "2.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+playServicesAuth = "21.3.0"
+playServicesAuthVersion = "19.0.0"
+volley = "1.2.1"
+
+[libraries]
+api-client-google-api-client-android-v1330 = { module = "com.google.api-client:google-api-client-android", version.ref = "googleGoogleApiClientAndroidVersion" }
+client-google-api-client-jackson2 = { module = "com.google.api.client:google-api-client-jackson2", version.ref = "googleApiClientJackson2Version" }
+core-jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version = "2.18.3" }
+google-api-client = { module = "com.google.api-client:google-api-client", version.ref = "googleGoogleApiClientJackson2" }
+google-api-client-jackson2 = { module = "com.google.api-client:google-api-client-jackson2", version.ref = "googleApiClientJackson2" }
+google-api-client-jackson2-v272 = { module = "com.google.api-client:google-api-client-jackson2", version.ref = "googleGoogleApiClientJackson2" }
+google-api-services-calendar = { module = "com.google.apis:google-api-services-calendar", version = "v3-rev20250115-2.0.0" }
+google-api-services-calendar-vv3rev4111250 = { module = "com.google.apis:google-api-services-calendar", version.ref = "googleApiServicesCalendarVersion" }
+google-auth-library-oauth2-http = { module = "com.google.auth:google-auth-library-oauth2-http", version.ref = "googleAuthLibraryOauth2Http" }
+google-auth-library-oauth2-http-v0252 = { module = "com.google.auth:google-auth-library-oauth2-http", version.ref = "googleAuthLibraryOauth2HttpVersion" }
+google-auth-library-oauth2-http-v1331 = { module = "com.google.auth:google-auth-library-oauth2-http", version.ref = "googleGoogleAuthLibraryOauth2Http" }
+google-google-api-client-android = { module = "com.google.api-client:google-api-client-android", version.ref = "googleGoogleApiClientAndroid" }
+google-http-client-gson = { module = "com.google.http-client:google-http-client-gson", version = "1.46.3" }
+google-http-client-gson-v1463 = { module = "com.google.http-client:google-http-client-gson", version.ref = "googleHttpClientGsonVersion" }
+jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version = "2.18.3" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-auth-v1900 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
+play-services-auth-v2010 = { module = "com.google.android.gms:play-services-auth", version = "21.3.0" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

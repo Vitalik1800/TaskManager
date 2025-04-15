@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAddTask"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4caf50"
+            android:text="@string/AddTask"
+            android:textColor="#263238"
+            app:cornerRadius="1dp"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btnTaskLogs"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4caf50"
+            android:text="@string/task_logs"
+            android:textColor="#263238"
+            app:cornerRadius="1dp"
+            tools:ignore="RelativeOverlap,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btnTaskStatistics"
+            android:layout_below="@id/btnAddTask"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4caf50"
+            android:text="@string/show_statistic"
+            android:textColor="#263238"
+            app:cornerRadius="1dp"
+            tools:ignore="RelativeOverlap,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_below="@id/btnTaskLogs"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4caf50"
+            android:text="@string/logout"
+            android:textColor="#263238"
+            app:cornerRadius="1dp"
+            tools:ignore="RelativeOverlap,VisualLintButtonSize" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="5dp"
+        android:id="@+id/recyclerViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TaskManager</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="auth">Вхід</string>
+    <string name="no_register">Не зареєстровані? Натисніть тут аби зареєструватися</string>
+    <string name="login">Логін</string>
+    <string name="register">Реєстрація</string>
+    <string name="registered">Вже зареєстровані? Натисніть тут, аби авторизуватися</string>
+    <string name="title">Назва</string>
+    <string name="description">Опис</string>
+    <string name="status">Статус</string>
+    <string name="AddTask">Додати завдання</string>
+    <string name="st">Статус (new, in_progress, done)</string>
+    <string name="EditTask">Оновити завдання</string>
+    <string name="task_logs">Історія дій</string>
+    <string name="action">Дія</string>
+    <string name="deadline">Дедлайн</string>
+    <string name="total_tasks">Загальна кількість завдань: 0</string>
+    <string name="task_statuses">Статуси завдань</string>
+    <string name="show_statistic">Статистика завдань</string>
+    <string name="default_web_client_id">123862571648-crppua2dgdtm8p48bk16f5jp19a7n0m1.apps.googleusercontent.com</string>
+    <string name="SelectFile">Вибрати файл</string>
+    <string name="path_to_file">Шлях до файлу</string>
+    <string name="logout">Вийти</string>
+    <string-array name="status_options">
+        <item>new</item>
+        <item>in_progress</item>
+        <item>completed</item>
+    </string-array>
+</resources>
